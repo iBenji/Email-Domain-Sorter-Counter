@@ -1,28 +1,17 @@
-# emaildomain-sorter
-This .py script counts and sorts emails by their domain thats in your choosen .txt file
-
-# Installation
-pip install termcolor,
-pip install collections
+# Email Counter / Database Cleaner
 
 # Instructions
-Tips:
-Your mail database file should be named as mails.txt
-mails.txt should be in the same folder as sorter.py
-You should have installed Python 3
-Your DB should look like this currently:
-
+mails.txt should looks like this:
 example@gmail.com
 example@yahoo.com
 example@outlook.com
 example@mail.com
 
-Instuctions:
-Install Python 3
-Start CMD: write next:
-1. pip install termcolor -> press enter
-2. pip install collections -> press enter
-3. cd PUT FULL PATH TO sorter.py (eg. cd C:\Users\Username\Documents\EmailDomainSorter) -> press Enter
-4. python sorter.py -> press Enter
+words_to_check.txt (or as domains filter and database you can imagine it) should looks like this:
+@mail.com
+@outlook.com
+@yahoo.com
+@gmail.com
 
-You need to do 1-2 steps only once, later use only 3-4 steps.
+To start working with it, just open sorter.exe and do your work there
+If you'll get there some notify messages while working with it then follow along.
